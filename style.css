@@ -82,18 +82,22 @@ background:rgba(255,255,0.03);
 }
 
 nav a{
-display:block;
-padding:12px 22px;
 color:#fff;
 text-decoration:none;
-font-wheight:600;
-border-radius:999px;
+font-wheigt:600;
 transition:.3s;
+
+padding:10px 20px;
+border: 2px solid;
+var(--laranja);
+border-radius:30px;
+display:inline-block;
 }
 
 nav a:hover{
 background:var(--laranja);
 color:#fff;
+transform:translateY(-2px);
 }
 
 .hero{
