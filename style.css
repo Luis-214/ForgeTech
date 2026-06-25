@@ -79,7 +79,7 @@ align-items:center;
 }
 
 nav a{
-color:var(--laranja);
+color:var(--laranja) !important;
 text-decoration:none;
 font-weight:600;
 padding:7px 14px;
@@ -321,7 +321,10 @@ display:flex;
 
 nav a{
 display:block;
-padding:10px;
+padding:7px 14px;
+color:var(--laranja) !important;
+border:1.5px solid #fff;
+border-radius:25px
 }
 
 .hero{
