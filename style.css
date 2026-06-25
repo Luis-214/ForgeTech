@@ -81,9 +81,9 @@ align-items:center;
 nav a{
 color:#fff;
 text-decoration:none;
-font-wheigt:600;
+font-weight:600;
 padding:10px 20px;
-border: 2px solid;
+border:2px solid;
 var(--laranja);
 border-radius:30px;
 background:transparent;
