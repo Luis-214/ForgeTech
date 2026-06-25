@@ -73,31 +73,27 @@ color:var(--laranja);
 
 nav ul{
 display:flex;
-gap:10px;
+gap:15px;
 list-style:none;
-padding:8px;
-border:1px solid #333;
-border-radius:999px;
-background:rgba(255,255,0.03);
+align-items:center;
 }
 
 nav a{
 color:#fff;
 text-decoration:none;
 font-wheigt:600;
-transition:.3s;
-
 padding:10px 20px;
 border: 2px solid;
 var(--laranja);
 border-radius:30px;
+background:transparent;
+transition:.3s:
 display:inline-block;
 }
 
 nav a:hover{
 background:var(--laranja);
 color:#fff;
-transform:translateY(-2px);
 }
 
 .hero{
