@@ -79,21 +79,22 @@ align-items:center;
 }
 
 nav a{
-color:#fff;
+color:var(--laranja);
 text-decoration:none;
 font-weight:600;
-padding:10px 20px;
-border:2px solid;
-var(--laranja);
-border-radius:30px;
+padding:7px 14px;
+border:1.5px solid #fff;
+border-radius:25px;
 background:transparent;
-transition:.3s:
 display:inline-block;
+transition:.3s;
+font-size:.95rem;
 }
 
 nav a:hover{
-background:var(--laranja);
-color:#fff;
+background:#fff;
+color:var(--laranja);
+}
 }
 
 .hero{
